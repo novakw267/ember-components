@@ -63,7 +63,7 @@ NOTE: there is no model hook for the index route because we currently don't need
 
 
 ```html
-<!-- lists/template.hbs -->
+<!-- app/templates/index.hbs -->
 <div class="container">
   <h2>Welcome to listr!</h2>
   {{#link-to 'lists'}}Check out the lists{{/link-to}}
