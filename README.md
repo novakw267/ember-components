@@ -77,7 +77,7 @@ ember generate route lists
 ```
 
 ```js
-//lists/route.js
+/app/routes/lists.js
 import Ember from 'ember';
 
  export default Ember.Route.extend({
