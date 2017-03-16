@@ -108,7 +108,7 @@ import Ember from 'ember';
 Now let's figure out how to render this new route.
 
 ```html
-<!-- lists/template.hbs -->
+<!-- templates/lists.hbs -->
 <div class="container">
   <h2>ListR</h2>
 
