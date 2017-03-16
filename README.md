@@ -16,10 +16,10 @@ element in the user interface.
 
 By the end of this, developers should be able to:
 
--   Model the user interface using components
--   Represent visual hierarchies with nested components
--   Register actions and click handlers on component objects
--   Pass data from routes to components, and from components to components
+-   Model the user interface using components.
+-   Represent visual hierarchies with nested components.
+-   Register actions and click handlers on component objects.
+-   Pass data down from routes to components, and from components to components.
 
 ## Preparation
 
