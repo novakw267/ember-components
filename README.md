@@ -51,7 +51,7 @@ ember generate route index
 ```
 
 ```js
-/app/routes/index.js
+//app/routes/index.js
 import Ember from 'ember';
 
  export default Ember.Route.extend({
@@ -77,7 +77,7 @@ ember generate route lists
 ```
 
 ```js
-/app/routes/lists.js
+//app/routes/lists.js
 import Ember from 'ember';
 
  export default Ember.Route.extend({
