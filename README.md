@@ -159,9 +159,9 @@ strikes through completed list items.
 
 ## Additional Resources
 
--   [Ember Component Guide](http://guides.emberjs.com/v2.5.0/components/defining-a-component/)
+-   [Ember Component Guide](http://guides.emberjs.com/v2.11.0/components/defining-a-component/)
 -   [Ember Component API Documentation](http://emberjs.com/api/classes/Ember.Component.html)
--   [Ember Actions](https://guides.emberjs.com/v2.5.0/templates/actions/)
+-   [Ember Actions](https://guides.emberjs.com/v2.11.0/templates/actions/)
 -   [Ember Action Handler](http://emberjs.com/api/classes/Ember.ActionHandler.html#method_send)
 -   [Parent to Children Component Communication for UI State - Ember Igniter](http://emberigniter.com/parent-to-children-component-communication/)
 -   [Communication Between Distant Components - Ember Igniter](http://emberigniter.com/communication-between-distant-components/)
