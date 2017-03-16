@@ -167,6 +167,7 @@ strikes through completed list items.
 -   [Communication Between Distant Components - Ember Igniter](http://emberigniter.com/communication-between-distant-components/)
 -   [Ember Best Practices: Actions Down, Data Up... wait what?](https://dockyard.com/blog/2015/10/14/best-practices-data-down-actions-up)
 -   [How Ember Data affects data down, actions up](http://www.samselikoff.com/blog/how-ember-data-affects-data-down-actions-up/)
+-  [Data Down, Actions Up tutorial](https://emberigniter.com/getting-started-ember-cli-data-down-actions-up-tutorial/)
 
 ## [License](LICENSE)
 
