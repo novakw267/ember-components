@@ -16,10 +16,10 @@ element in the user interface.
 
 By the end of this, developers should be able to:
 
--   Model the user interface using components
--   Represent visual hierarchies with nested components
--   Register actions and click handlers on component objects
--   Pass data from routes to components, and from components to components
+-   Model the user interface using components.
+-   Represent visual hierarchies with nested components.
+-   Register actions and click handlers on component objects.
+-   Pass data down from routes to components, and from components to components.
 
 ## Preparation
 
@@ -51,7 +51,7 @@ ember generate route index
 ```
 
 ```js
-//index/route.js
+//app/routes/index.js
 import Ember from 'ember';
 
  export default Ember.Route.extend({
@@ -63,7 +63,7 @@ NOTE: there is no model hook for the index route because we currently don't need
 
 
 ```html
-<!-- lists/template.hbs -->
+<!-- app/templates/index.hbs -->
 <div class="container">
   <h2>Welcome to listr!</h2>
   {{#link-to 'lists'}}Check out the lists{{/link-to}}
@@ -77,7 +77,7 @@ ember generate route lists
 ```
 
 ```js
-//lists/route.js
+//app/routes/lists.js
 import Ember from 'ember';
 
  export default Ember.Route.extend({
@@ -108,7 +108,7 @@ import Ember from 'ember';
 Now let's figure out how to render this new route.
 
 ```html
-<!-- lists/template.hbs -->
+<!-- templates/lists.hbs -->
 <div class="container">
   <h2>ListR</h2>
 
@@ -159,14 +159,15 @@ strikes through completed list items.
 
 ## Additional Resources
 
--   [Ember Component Guide](http://guides.emberjs.com/v2.5.0/components/defining-a-component/)
+-   [Ember Component Guide](http://guides.emberjs.com/v2.11.0/components/defining-a-component/)
 -   [Ember Component API Documentation](http://emberjs.com/api/classes/Ember.Component.html)
--   [Ember Actions](https://guides.emberjs.com/v2.5.0/templates/actions/)
+-   [Ember Actions](https://guides.emberjs.com/v2.11.0/templates/actions/)
 -   [Ember Action Handler](http://emberjs.com/api/classes/Ember.ActionHandler.html#method_send)
 -   [Parent to Children Component Communication for UI State - Ember Igniter](http://emberigniter.com/parent-to-children-component-communication/)
 -   [Communication Between Distant Components - Ember Igniter](http://emberigniter.com/communication-between-distant-components/)
 -   [Ember Best Practices: Actions Down, Data Up... wait what?](https://dockyard.com/blog/2015/10/14/best-practices-data-down-actions-up)
 -   [How Ember Data affects data down, actions up](http://www.samselikoff.com/blog/how-ember-data-affects-data-down-actions-up/)
+-  [Data Down, Actions Up tutorial](https://emberigniter.com/getting-started-ember-cli-data-down-actions-up-tutorial/)
 
 ## [License](LICENSE)
 
