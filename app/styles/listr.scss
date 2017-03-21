@@ -1,0 +1,8 @@
+// this says to hide the first child of the list-detail-hidden
+.list-detail-hidden :not(:first-child) {
+  display: none;
+}
+// telling a hover effect to happen for this class
+.list-header:hover {
+  cursor: pointer;
+}
