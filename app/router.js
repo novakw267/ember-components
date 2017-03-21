@@ -7,7 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('lists');
+  this.route('lists', function() {
+    this.route('Favorites');
+    this.route('Todos');
+  });
 });
 
 export default Router;
